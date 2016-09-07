@@ -1,0 +1,28 @@
+.navbar{
+    position: fixed;
+    width: 206px;
+    padding-top: 587px;
+    background: transparent url(../images/global/left-nav-bg.png) no-repeat 0 0;
+    background-size: 100% auto;
+    color: #fff;
+    > div{
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        padding: 0 11px 0 9px;
+    }
+    &__items{
+        margin: 0 0 1em;
+        padding: 0;
+        list-style: none;
+        width: 100%;
+    }
+    &__link{
+        display: block;
+        font-size: .875em;
+        text-align: left;
+        padding: 7px 0 7px 33px;
+        transition: background-color .5s ease;
+    }
+}

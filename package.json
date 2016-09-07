@@ -1,0 +1,29 @@
+{
+  "name": "smacss-seed",
+  "version": "1.0.0",
+  "description": "Draft basics of SMACSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VRedondo/smacss-seed.git"
+  },
+  "author": "Victor Redondo Quiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VRedondo/smacss-seed/issues"
+  },
+  "homepage": "https://github.com/VRedondo/smacss-seed#readme",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "connect-livereload": "^0.5.4",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "normalize-scss": "^5.0.3",
+    "support-for": "^1.0.6",
+    "tiny-lr": "^0.2.1"
+  }
+}

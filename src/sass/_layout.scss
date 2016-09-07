@@ -1,0 +1,71 @@
+/****** DRY CSS *********/
+.center-content{
+    padding-left: 35.15%;
+    padding-right: 5.2%;
+}
+
+/****** Header Layout *********/
+.l-header{
+    background-color: #280091;
+    padding-top: 1.84em;
+    min-height: 25.25em;
+    position: relative;
+    color: #fff;
+    &:before{
+        position: absolute;
+        height: 100%;
+        width: 1000%;
+        content: '';
+        display: block;
+        top: 0;
+        left: -500%;
+        background: #280091;
+        z-index: -1;
+    }
+    &__title{
+        height: 330px;
+        display: table;
+        width: 100%;
+        > div{
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+}
+/****** Page Content Layout *********/
+.l-main{
+    max-width: 768px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.l-constrained{
+    @extend .center-content;
+}
+
+.l-aside{
+    width: 35.15%;
+    padding-left: 4.16%;
+}
+
+.l-content{
+    padding-top: 3.125em;
+}
+/****** Footer Layout *********/
+.l-footer{
+    @extend .center-content;
+    position: relative;
+    border-top: 3px solid transparent;
+    padding-top: 3.18em;
+    &:before{
+        position: absolute;
+        height: 3px;
+        width: 1000%;
+        content: '';
+        display: block;
+        top: .8125em;
+        left: -500%;
+        background: #ccc;
+        z-index: -1;
+    }
+}

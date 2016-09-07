@@ -1,0 +1,29 @@
+@import 'third-party/normalize-scss/normalize';
+
+body{
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.25;
+    font-family: Arial,sans-serif;
+    color: #5a5a5a;
+    overflow-x: hidden;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 3em;
+    line-height: 1.3em;
+    text-align: center;
+}

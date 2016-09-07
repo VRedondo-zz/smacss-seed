@@ -1,0 +1,15 @@
+.footer-menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    &__item{
+        font-size: 1em;
+        margin: 0 0 1.56em 0;
+        display: block;
+        > a{
+            text-transform: uppercase;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+    }
+}

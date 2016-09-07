@@ -1,0 +1,33 @@
+.resource-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #fff;
+    font-size: .625em;
+    width: 100%;
+    background: #63b1e5;
+    display: flex;
+    &__item{
+        flex-grow:1;
+        vertical-align: middle;
+        position: relative;
+        >a{
+            display: block;
+            padding: 1em 0;
+            color: inherit;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            outline: none;
+            &:after{
+                content: '';
+                position: absolute;
+                width: 1px;
+                background: #fff;
+                height: 66%;
+                top: 17%;
+                right: 0;
+            }
+        }
+    }
+}
